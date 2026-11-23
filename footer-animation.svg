@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="t d">
+<title id="t">Stay curious, stay ethical, keep learning</title>
+<desc id="d">Animated cybersecurity footer with a pulsing padlock, the motto stay curious, stay ethical, keep learning, Ehtesham Iqbal's title, and a note that all testing is done only in authorised lab environments.</desc>
+<defs>
+  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#00FF41" stroke-opacity=".05"/></pattern>
+  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="wg" x1="0" x2="1"><stop offset="0" stop-color="#00FF41"/><stop offset=".5" stop-color="#00BFFF"/><stop offset="1" stop-color="#8A2BE2"/></linearGradient>
+  <clipPath id="c"><rect width="1200" height="250" rx="18"/></clipPath>
+</defs>
+<style>
+  .mono{font-family:'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace}
+  .wave{animation:w 4s linear infinite}
+  @keyframes w{from{transform:translateX(0)}to{transform:translateX(-150px)}}
+  .lock{animation:p 2.4s ease-in-out infinite}
+  @keyframes p{0%,100%{opacity:.55}50%{opacity:1}}
+  .type{animation:ty 9s steps(43,end) infinite}
+  @keyframes ty{0%{transform:translateX(0)}30%,100%{transform:translateX(820px)}}
+</style>
+<g clip-path="url(#c)">
+  <rect width="1200" height="250" fill="#050505"/><rect width="1200" height="250" fill="url(#grid)"/>
+  <g class="lock" transform="translate(600 46)" filter="url(#glow)">
+    <rect x="-14" y="-2" width="28" height="22" rx="4" fill="none" stroke="#00FF41" stroke-width="2.2"/>
+    <path d="M-8-2V-10A8 8 0 0 1 8-10V-2" fill="none" stroke="#00FF41" stroke-width="2.2"/>
+    <circle cy="9" r="2.6" fill="#00BFFF"/>
+  </g>
+  <g class="mono" text-anchor="middle">
+    <text x="600" y="110" font-size="26" font-weight="700" letter-spacing="3" fill="#00FF41" filter="url(#glow)">STAY CURIOUS · STAY ETHICAL · KEEP LEARNING</text>
+    <rect class="type" x="190" y="82" width="820" height="38" fill="#050505"/>
+    <text x="600" y="146" font-size="15" fill="#00BFFF">Ehtesham Iqbal  //  Cybersecurity Enthusiast  //  Aspiring Ethical Hacker</text>
+    <text x="600" y="174" font-size="12.5" fill="#5E7A66">All security testing is performed only on systems I own or am authorised to test.</text>
+  </g>
+  <g class="wave"><path d="M0 210 Q37.5 195 75 210 Q112.5 225 150 210 Q187.5 195 225 210 Q262.5 225 300 210 Q337.5 195 375 210 Q412.5 225 450 210 Q487.5 195 525 210 Q562.5 225 600 210 Q637.5 195 675 210 Q712.5 225 750 210 Q787.5 195 825 210 Q862.5 225 900 210 Q937.5 195 975 210 Q1012.5 225 1050 210 Q1087.5 195 1125 210 Q1162.5 225 1200 210 Q1237.5 195 1275 210 Q1312.5 225 1350 210" fill="none" stroke="url(#wg)" stroke-width="2" stroke-opacity=".8"/><path d="M0 210 Q37.5 195 75 210 Q112.5 225 150 210 Q187.5 195 225 210 Q262.5 225 300 210 Q337.5 195 375 210 Q412.5 225 450 210 Q487.5 195 525 210 Q562.5 225 600 210 Q637.5 195 675 210 Q712.5 225 750 210 Q787.5 195 825 210 Q862.5 225 900 210 Q937.5 195 975 210 Q1012.5 225 1050 210 Q1087.5 195 1125 210 Q1162.5 225 1200 210 Q1237.5 195 1275 210 Q1312.5 225 1350 210" fill="none" stroke="url(#wg)" stroke-width="6" stroke-opacity=".12"/></g>
+</g>
+<rect x=".75" y=".75" width="1198.5" height="248.5" rx="18" fill="none" stroke="#00FF41" stroke-opacity=".35" stroke-width="1.5"/>
+</svg>

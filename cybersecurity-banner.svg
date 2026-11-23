@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
+<title id="t">Ehtesham Iqbal – Cybersecurity Enthusiast and Aspiring Ethical Hacker</title>
+<desc id="d">Animated neon cybersecurity banner with a terminal prompt, Ehtesham Iqbal's name and title, scanning effects and a radar with a shield.</desc>
+<defs>
+  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#00FF41" stroke-opacity=".06"/></pattern>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00FF41" stop-opacity="0"/><stop offset=".5" stop-color="#00FF41" stop-opacity=".10"/><stop offset="1" stop-color="#00FF41" stop-opacity="0"/></linearGradient>
+  <linearGradient id="rule" x1="0" x2="1"><stop offset="0" stop-color="#00FF41"/><stop offset=".55" stop-color="#00BFFF"/><stop offset="1" stop-color="#8A2BE2" stop-opacity="0"/></linearGradient>
+  <radialGradient id="halo" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#00BFFF" stop-opacity=".18"/><stop offset="1" stop-color="#00BFFF" stop-opacity="0"/></radialGradient>
+  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00FF41" stop-opacity="0"/><stop offset="1" stop-color="#00FF41" stop-opacity=".45"/></linearGradient>
+  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="frame"><rect width="1200" height="360" rx="18"/></clipPath>
+</defs>
+<style>
+  .mono{font-family:'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace}
+  .scan{animation:scan 6s linear infinite}
+  @keyframes scan{from{transform:translateY(-80px)}to{transform:translateY(360px)}}
+  .cursor{animation:blink 1s steps(1) infinite}
+  @keyframes blink{50%{fill-opacity:0}}
+  .pkt{stroke-dasharray:14 520;animation:flow 5s linear infinite}
+  .pkt.b{animation-duration:7s;animation-delay:-2s}
+  .pkt.c{animation-duration:6s;animation-delay:-4s}
+  @keyframes flow{from{stroke-dashoffset:534}to{stroke-dashoffset:0}}
+  .g1,.g2{opacity:0;animation:glitch 7s infinite}
+  .g2{animation-delay:.08s}
+  @keyframes glitch{0%,91%,100%{opacity:0;transform:translate(0,0)}92%{opacity:.75;transform:translate(4px,-1px)}94%{opacity:.6;transform:translate(-3px,1px)}96%{opacity:0}}
+</style>
+<g clip-path="url(#frame)">
+  <rect width="1200" height="360" fill="#050505"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <circle cx="960" cy="180" r="200" fill="url(#halo)"/>
+  <!-- circuit traces -->
+  <g fill="none" stroke-width="1.5">
+    <path d="M0 350H200L222 332H440" stroke="#00BFFF" stroke-opacity=".25"/>
+    <path d="M0 350H200L222 332H440" stroke="#00BFFF" class="pkt"/>
+    <path d="M1200 40H1080L1050 70H880" stroke="#8A2BE2" stroke-opacity=".35"/>
+    <path d="M1200 40H1080L1050 70H880" stroke="#8A2BE2" class="pkt b"/>
+    <path d="M760 360V320L790 290H1200" stroke="#00FF41" stroke-opacity=".18"/>
+    <path d="M760 360V320L790 290H1200" stroke="#00FF41" class="pkt c"/>
+  </g>
+  <g fill="#00BFFF" fill-opacity=".6"><circle cx="440" cy="332" r="3"/><circle cx="880" cy="70" r="3" fill="#8A2BE2"/><circle cx="790" cy="290" r="3" fill="#00FF41"/></g>
+  <!-- radar + shield -->
+  <g transform="translate(960 180)">
+    <g fill="none" stroke="#00BFFF" stroke-opacity=".35"><circle r="125"/><circle r="90"/><circle r="55"/><path d="M-135 0H135M0-135V135" stroke-opacity=".15"/></g>
+    <circle r="125" fill="none" stroke="#00FF41" stroke-opacity=".5" stroke-dasharray="4 10"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite"/></circle>
+    <path d="M0 0L125 0A125 125 0 0 0 88.4 -88.4Z" fill="url(#sweep)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/></path>
+  </g>
+  <circle cx="1005" cy="140" r="3.5" fill="#00FF41"><animate attributeName="opacity" values="0;1;0" dur="4s" begin="0.4s" repeatCount="indefinite"/></circle><circle cx="905" cy="225" r="3.5" fill="#00FF41"><animate attributeName="opacity" values="0;1;0" dur="4s" begin="1.6s" repeatCount="indefinite"/></circle><circle cx="1040" cy="235" r="3.5" fill="#00FF41"><animate attributeName="opacity" values="0;1;0" dur="4s" begin="2.7s" repeatCount="indefinite"/></circle><circle cx="930" cy="120" r="3.5" fill="#00FF41"><animate attributeName="opacity" values="0;1;0" dur="4s" begin="3.3s" repeatCount="indefinite"/></circle>
+  <g transform="translate(960 180)" filter="url(#glow)">
+    <path d="M0-62L48-44V-6C48 28 27 52 0 64C-27 52-48 28-48-6V-44Z" fill="#050505" fill-opacity=".85" stroke="#00FF41" stroke-width="2.5"/>
+    <rect x="-17" y="-6" width="34" height="27" rx="4" fill="none" stroke="#00BFFF" stroke-width="2.5"/>
+    <path d="M-10-6V-16A10 10 0 0 1 10-16V-6" fill="none" stroke="#00BFFF" stroke-width="2.5"/>
+    <circle cy="6" r="3.5" fill="#00FF41"><animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite"/></circle>
+  </g>
+  <!-- text -->
+  <g class="mono">
+    <text x="70" y="92" font-size="18" fill="#00BFFF"><tspan fill="#00FF41">ehtesham@kali</tspan>:<tspan fill="#8A2BE2">~</tspan>$ whoami <tspan class="cursor" fill="#00FF41">█</tspan></text>
+    <text class="g1" x="70" y="172" font-size="66" font-weight="700" letter-spacing="4" fill="#00BFFF">EHTESHAM IQBAL</text>
+    <text class="g2" x="70" y="172" font-size="66" font-weight="700" letter-spacing="4" fill="#8A2BE2">EHTESHAM IQBAL</text>
+    <text x="70" y="172" font-size="66" font-weight="700" letter-spacing="4" fill="#00FF41" filter="url(#glow)">EHTESHAM IQBAL</text>
+    <text x="72" y="218" font-size="22" fill="#00BFFF">Cybersecurity Enthusiast | Aspiring Ethical Hacker</text>
+    <rect x="72" y="238" width="600" height="2" fill="url(#rule)"/>
+    <text x="72" y="274" font-size="15" fill="#9FE8B0">Network Security  ·  Penetration Testing  ·  Web App Security  ·  Linux</text>
+    <text x="72" y="310" font-size="13" fill="#5E7A66">[ status: learning ]  [ environment: lab ]  [ ethics: always ]</text>
+  </g>
+  <rect class="scan" x="0" y="0" width="1200" height="80" fill="url(#scan)"/>
+</g>
+<rect x=".75" y=".75" width="1198.5" height="358.5" rx="18" fill="none" stroke="#00FF41" stroke-opacity=".35" stroke-width="1.5"/>
+</svg>

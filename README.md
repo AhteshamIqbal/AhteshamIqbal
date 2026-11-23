@@ -1,7 +1,3 @@
-Hi I'm Ahtesham Iqbal
-Computer science
- student
-[README.md](https://github.com/user-attachments/files/35295162/README.md)
 <div align="center">
 
 <img src="assets/cybersecurity-banner.svg" width="100%" alt="Ehtesham Iqbal – Cybersecurity Enthusiast and Aspiring Ethical Hacker" />
@@ -136,4 +132,3 @@ My goal is to grow into a skilled, ethical **penetration tester** who helps orga
 <div align="center">
 <img src="assets/footer-animation.svg" width="100%" alt="Stay curious, stay ethical, keep learning: Ehtesham Iqbal, cybersecurity enthusiast and aspiring ethical hacker. All security testing is performed only on authorised systems." />
 </div>
-Add cybersecurity profile

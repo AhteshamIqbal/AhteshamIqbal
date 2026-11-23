@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="36" viewBox="0 0 1200 36" role="img" aria-labelledby="t">
+<title id="t">Section divider</title>
+<defs>
+  <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0"><stop offset="0" stop-color="#00FF41" stop-opacity="0"/><stop offset=".15" stop-color="#00FF41"/><stop offset=".5" stop-color="#00BFFF"/><stop offset=".85" stop-color="#8A2BE2"/><stop offset="1" stop-color="#8A2BE2" stop-opacity="0"/></linearGradient>
+  <filter id="gl" x="-50%" y="-200%" width="200%" height="500%"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<path d="M0 18H1200" stroke="url(#g)" stroke-width="1.5" stroke-opacity=".7"/>
+<rect x="146" y="14" width="8" height="8" transform="rotate(45 150 18)" fill="#050505" stroke="#00FF41" stroke-width="1.5"/><rect x="446" y="14" width="8" height="8" transform="rotate(45 450 18)" fill="#050505" stroke="#00BFFF" stroke-width="1.5"/><rect x="746" y="14" width="8" height="8" transform="rotate(45 750 18)" fill="#050505" stroke="#00BFFF" stroke-width="1.5"/><rect x="1046" y="14" width="8" height="8" transform="rotate(45 1050 18)" fill="#050505" stroke="#8A2BE2" stroke-width="1.5"/>
+<g><circle r="5" cy="18" fill="#00FF41" filter="url(#gl)"/><circle r="2.5" cy="18" fill="#D9FFE3"/><animateTransform attributeName="transform" type="translate" values="-20 0;1220 0" dur="5s" repeatCount="indefinite"/></g>
+<g><circle r="4" cy="18" fill="#8A2BE2" filter="url(#gl)"/><circle r="2" cy="18" fill="#E9D8FF"/><animateTransform attributeName="transform" type="translate" values="1220 0;-20 0" dur="7.5s" repeatCount="indefinite"/></g>
+</svg>
