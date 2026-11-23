@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="180" viewBox="0 0 960 180" role="img" aria-labelledby="t d">
-<title id="t">Contribution Snake</title><desc id="d">Statistics will appear after the first automated update.</desc>
-<style>text{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}.h{font-size:17px;font-weight:700;fill:#00FF41}.l{font-size:13px;fill:#D6E2D8}.v{font-size:13px;font-weight:700;fill:#00BFFF}.m{font-size:11px;fill:#6F8A76}
-.fade{animation:f .8s ease-out both}@keyframes f{from{opacity:0}to{opacity:1}}</style>
-<rect x=".75" y=".75" width="958.5" height="178.5" rx="12" fill="#050505" stroke="#00FF41" stroke-opacity=".35" stroke-width="1.5"/>
-<text x="24" y="36" class="h">&gt; Contribution Snake</text>
-<text x="480.0" y="96.0" text-anchor="middle" class="l">Awaiting first run of the “Update profile” GitHub Action…</text><text x="480.0" y="120.0" text-anchor="middle" class="m">real data from github.com/AhteshamIqbal appears here automatically</text>
-</svg>
