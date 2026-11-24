@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="250" viewBox="0 0 480 250" role="img" aria-labelledby="t d">
-<title id="t">Most Used Languages</title><desc id="d">C++ 59.2%; Python 40.8%</desc>
+<title id="t">Most Used Languages</title><desc id="d">C++ 100.0%</desc>
 <style>text{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}.h{font-size:17px;font-weight:700;fill:#00FF41}.l{font-size:13px;fill:#D6E2D8}.v{font-size:13px;font-weight:700;fill:#00BFFF}.m{font-size:11px;fill:#6F8A76}
 .fade{animation:f .8s ease-out both}@keyframes f{from{opacity:0}to{opacity:1}}</style>
 <rect x=".75" y=".75" width="478.5" height="248.5" rx="12" fill="#050505" stroke="#00FF41" stroke-opacity=".35" stroke-width="1.5"/>
 <text x="24" y="36" class="h">&gt; Most Used Languages</text>
-<clipPath id="bc"><rect x="24" y="58" width="432" height="10" rx="5"/></clipPath><g clip-path="url(#bc)"><rect x="24.0" y="58" width="255.6" height="10" fill="#f34b7d"/><rect x="279.6" y="58" width="176.4" height="10" fill="#3572A5"/></g><g class="fade" style="animation-delay:0.0s"><circle cx="30" cy="100" r="6" fill="#f34b7d"/><text x="44" y="104" class="l">C++</text><text x="224" y="104" class="v" text-anchor="end">59.2%</text></g><g class="fade" style="animation-delay:0.1s"><circle cx="250" cy="100" r="6" fill="#3572A5"/><text x="264" y="104" class="l">Python</text><text x="444" y="104" class="v" text-anchor="end">40.8%</text></g><text x="24" y="226" class="m">by code size · public non-fork repositories</text>
+<clipPath id="bc"><rect x="24" y="58" width="432" height="10" rx="5"/></clipPath><g clip-path="url(#bc)"><rect x="24.0" y="58" width="432.0" height="10" fill="#f34b7d"/></g><g class="fade" style="animation-delay:0.0s"><circle cx="30" cy="100" r="6" fill="#f34b7d"/><text x="44" y="104" class="l">C++</text><text x="224" y="104" class="v" text-anchor="end">100.0%</text></g><text x="24" y="226" class="m">by code size · public non-fork repositories</text>
 </svg>
